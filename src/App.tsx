@@ -1,21 +1,9 @@
-import {useEffect} from "react";
+import {useEffect, useState} from "react";
 import {fetchImages} from "./api";
 
 function Header() {
     return (
         <div>masatora.com</div>
-    )
-}
-
-function Main() {
-    const urls = null
-    useEffect(() => {
-        fetchImages().then((urls) => {
-            console.log(urls)
-        });
-    }, [])
-    return (
-       <div>Hello, World</div>
     )
 }
 
@@ -27,11 +15,39 @@ function Image(props) {
     )
 }
 
-function Gallery() {
-    const url = "https://images.dog.ceo/breeds/shiba/shiba-8.jpg";
+function Gallery(props) {
+    const { urls } = props
+    if (urls == null) {
+        return <p>Loading</p>
+    }
     return (
         <div>
-            <Image src={url} />
+            {
+                urls.map((url) => {
+                    return (
+                        <div key={url}>
+                            <Image src={url} />
+                        </div>
+                    )
+                })
+            }
+        </div>
+    )
+}
+
+function Main() {
+    const [urls, setUrls] = useState(null)
+    useEffect(() => {
+        fetchImages().then((urls) => {
+            console.log(urls)
+            setUrls(urls)
+        });
+    }, []);
+    return (
+        <div>
+            Hello, World
+            <h1>a</h1>
+            <Gallery urls={urls} />
         </div>
     )
 }
@@ -41,7 +57,6 @@ function App() {
         <div>
             <Header />
             <Main />
-            <Gallery />
         </div>
     )
 }
