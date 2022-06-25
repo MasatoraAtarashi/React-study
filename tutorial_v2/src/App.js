@@ -1,7 +1,8 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { RootPage } from "./pages/Root.js";
-import { RestaurantDetailPage } from "./pages/RestaurantDetail.js";
-import { RestaurantListPage } from "./pages/RestaurantList.js";
+import React from 'react';
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {RootPage} from "./pages/Root.js";
+import {RestaurantDetailPage} from "./pages/RestaurantDetail.js";
+import {RestaurantListPage} from "./pages/RestaurantList.js";
 
 function Header() {
     return (
@@ -36,26 +37,11 @@ export function App() {
     return (
         <Router>
             <Header />
-            <section className="section has-background-warning-light">
-                <div className="container">
-                    <div className="block has-text-right">
-                        <button className="button is-warning is-inverted is-outlined">
-                            ログイン
-                        </button>
-                    </div>
-                    <Switch>
-                        <Route path="/" exact>
-                            <RootPage />
-                        </Route>
-                        <Route path="/restaurants" exact>
-                            <RestaurantListPage />
-                        </Route>
-                        <Route path="/restaurants/:restaurantId">
-                            <RestaurantDetailPage />
-                        </Route>
-                    </Switch>
-                </div>
-            </section>
+                    <Routes>
+                        <Route path="/" element={<RootPage />}></Route>
+                        <Route path="/restaurants" element={<RestaurantListPage />}></Route>
+                        <Route path="/restaurants/:restaurantId" element={<RestaurantDetailPage />}></Route>
+                    </Routes>
             <Footer />
         </Router>
     );
