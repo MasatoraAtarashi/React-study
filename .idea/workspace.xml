@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1da7a4fa-5dbd-4e63-b1dd-c6beebb731f1" name="変更" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next-tutorial/nextjs-blog/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/next-tutorial/nextjs-blog/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_v1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_v1/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +61,7 @@
       <recent name="$PROJECT_DIR$/tutorial_v2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/next-tutorial/nextjs-blog/public/images" />
       <recent name="$PROJECT_DIR$/tutorial_v2" />
       <recent name="$PROJECT_DIR$/tutorial_v2/src" />
       <recent name="$PROJECT_DIR$/tutorial_v2/public" />
@@ -83,7 +83,7 @@
       <workItem from="1655774471939" duration="72000" />
       <workItem from="1656154972982" duration="2303000" />
       <workItem from="1656166001956" duration="1405000" />
-      <workItem from="1656167546986" duration="8600000" />
+      <workItem from="1656167546986" duration="10630000" />
     </task>
     <servers />
   </component>
