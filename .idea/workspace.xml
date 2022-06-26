@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1da7a4fa-5dbd-4e63-b1dd-c6beebb731f1" name="変更" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next-tutorial/nextjs-blog/lib/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/next-tutorial/nextjs-blog/lib/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next-tutorial/nextjs-blog/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/next-tutorial/nextjs-blog/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next-tutorial/nextjs-blog/pages/posts/first-post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-tutorial/nextjs-blog/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/next-tutorial/nextjs-blog/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/s15227/ghq/github.com/MasatoraAtarashi/react-study/tutorial_v2",
+    "last_opened_file_path": "/Users/s15227/ghq/github.com/MasatoraAtarashi/react-study",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -63,6 +59,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/next-tutorial" />
+      <recent name="$PROJECT_DIR$/next-tutorial/nextjs-blog" />
       <recent name="$PROJECT_DIR$/tutorial_v2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -88,7 +87,7 @@
       <workItem from="1655774471939" duration="72000" />
       <workItem from="1656154972982" duration="2303000" />
       <workItem from="1656166001956" duration="1405000" />
-      <workItem from="1656167546986" duration="13591000" />
+      <workItem from="1656167546986" duration="14639000" />
     </task>
     <servers />
   </component>
