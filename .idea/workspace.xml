@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1da7a4fa-5dbd-4e63-b1dd-c6beebb731f1" name="変更" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next-tutorial/nextjs-blog/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/next-tutorial/nextjs-blog/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-tutorial/nextjs-blog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/next-tutorial/nextjs-blog/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-tutorial/nextjs-blog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/next-tutorial/nextjs-blog/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-tutorial/nextjs-blog/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/next-tutorial/nextjs-blog/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
     "nodejs_package_manager_path": "npm",
     "rearrange.code.on.save": "true",
     "settings.editor.selected.configurable": "Settings.JavaScript",
-    "ts.external.directory.path": "/Users/s15227/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/221.5921.27/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/Users/s15227/ghq/github.com/MasatoraAtarashi/react-study/next-tutorial/nextjs-blog/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -87,7 +91,7 @@
       <workItem from="1655774471939" duration="72000" />
       <workItem from="1656154972982" duration="2303000" />
       <workItem from="1656166001956" duration="1405000" />
-      <workItem from="1656167546986" duration="14639000" />
+      <workItem from="1656167546986" duration="15634000" />
     </task>
     <servers />
   </component>
